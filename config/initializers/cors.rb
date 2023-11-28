@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "localhost:8080", "upbeat-jepsen-79298e.netlify.app"
+    origins "localhost:8080", "playgroup-tutor.netlify.app"
 
     resource "*",
       headers: :any,
